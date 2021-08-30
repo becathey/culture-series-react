@@ -5,3 +5,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
 }
+#page-body {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 64px;
+}
