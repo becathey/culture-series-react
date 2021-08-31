@@ -1,7 +1,17 @@
 import React from "react";
-const ArticlePage = () => (
-  <div>
-    <h1>This is an article</h1>
-  </div>
-);
+import articleContent from "./article-content";
+
+const ArticlePage = ({ match }) => {
+  const name = match.params.name;
+  const article = articleContent.find((article) => article.name === name);
+  if (!article) return <h1>Article does not exist!</h1>;
+  return (
+    <div>
+      <h1>{article.title}</h1>
+      {article.content.map((paragraph, i) => (
+        <p key={i}>{paragraph}</p>
+      ))}
+    </div>
+  );
+};
 export default ArticlePage;
