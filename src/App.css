@@ -40,3 +40,16 @@ nav a:hover {
   color: white;
   background: black;
 }
+h3,
+h4 {
+  margin-bottom: 0;
+}
+.article-list-item {
+  padding: 16px 0 0 0;
+  text-decoration: none;
+  color: black;
+}
+.article-list-item p {
+  border-bottom: 2px solid black;
+  padding-bottom: 32px;
+}
