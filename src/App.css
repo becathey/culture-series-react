@@ -53,3 +53,7 @@ h4 {
   border-bottom: 2px solid black;
   padding-bottom: 32px;
 }
+.article-image {
+  float: left;
+  margin: 0 10px 10px 0;
+}
