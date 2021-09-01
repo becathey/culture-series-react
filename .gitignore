@@ -6,7 +6,6 @@
 .pnp.js
 
 # assets
-/src/images
 /src/pages/article-content.js
 
 # testing
