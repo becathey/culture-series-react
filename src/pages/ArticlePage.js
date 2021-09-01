@@ -8,6 +8,7 @@ const ArticlePage = ({ match }) => {
   return (
     <div>
       <h1>{article.title}</h1>
+      <img src={article.image} alt="" />
       {article.content.map((paragraph, i) => (
         <p key={i}>{paragraph}</p>
       ))}
