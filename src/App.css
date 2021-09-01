@@ -7,6 +7,11 @@ body {
   margin: auto;
   padding-top: 64px;
 }
+@media (max-width: 900px) {
+  #page-body {
+    margin: auto 10%;
+  }
+}
 nav {
   position: fixed;
   top: 0;
