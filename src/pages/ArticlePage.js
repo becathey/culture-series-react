@@ -17,7 +17,7 @@ const ArticlePage = ({ match }) => {
       {article.content.map((paragraph, i) => (
         <p key={i}>{paragraph}</p>
       ))}
-      <h3>Other Articles</h3>
+      <h2 className="other-articles">Other Articles</h2>
       <ArticlesList articles={otherArticles} />
     </div>
   );
