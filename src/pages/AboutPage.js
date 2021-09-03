@@ -1,7 +1,7 @@
 import React from "react";
 const AboutPage = () => (
   <div>
-    <h1>About Me</h1>
+    <h1>About</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Augue eget arcu dictum
