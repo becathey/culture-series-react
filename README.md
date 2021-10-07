@@ -2,6 +2,16 @@
 
 This project is a blog frontend or basic website built with React. It has a Home page, About page, and an Articles List page, which displays the title, a short excerpt of the text, and a small image for each article/page. Each article/page has a larger image, the text of the article/page, and below a listing of the other articles/pages.
 
+## Install the Dependencies
+
+To install the dependencies, run:
+
+```
+npm install
+```
+
+## Create Data File
+
 In the `src/pages/` directory, create an `article-content.js` file for your data:
 
 ```
