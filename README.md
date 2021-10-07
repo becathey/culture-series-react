@@ -12,7 +12,7 @@ npm install
 
 ## Create Data File
 
-In the `src/pages/` directory, create an `article-content.js` file for your data:
+In the `src/pages/` directory, create an `article-content.js` file for your data. Create an object for each article/page in the following format:
 
 ```
 const articles = [
