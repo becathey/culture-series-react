@@ -4,7 +4,7 @@ import articleContent from "./article-content";
 
 const ArticlesListPage = () => (
   <div>
-    <h1>Articles</h1>
+    <h1>Books</h1>
     <ArticlesList articles={articleContent} />
   </div>
 );
