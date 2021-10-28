@@ -1,6 +1,6 @@
-# React Blog Frontend
+# The Culture Series
 
-This project is a blog frontend or basic website built with React. It has a Home page, About page, and an Articles List page, which displays the title, a short excerpt of the text, and a small image for each article/page. Each article/page has a larger image, the text of the article/page, and below a listing of the other articles/pages.
+Website dedicated to the Culture series of books written by SF author Iain M. Banks, built with React.
 
 ## Install the Dependencies
 
