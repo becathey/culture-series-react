@@ -5,9 +5,6 @@
 /.pnp
 .pnp.js
 
-# assets
-/src/pages/article-content.js
-
 # testing
 /coverage
 
